@@ -14,7 +14,7 @@ installProjectorPrereqs() {
 }
 
 installRubyMine() {
-	~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2021.1"
+	~/.local/bin/projector ide autoinstall --accept-license --config-name RubyMine --ide-name "RubyMine 2021.1"
 	copyRubyMineConfig
 	sudo npm install pm2 -g
 	pm2 start $DIR/projector-rubymine.sh
