@@ -1,6 +1,5 @@
 #!/bin/bash
 
-./install-projector-rubymine.sh
 ./install-fish.sh
 
 sudo ln -nfs $DIR/scripts/git-squash /usr/local/bin/git-squash
