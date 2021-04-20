@@ -3,5 +3,7 @@
 ./installRubyMineViaProjector.sh
 ./installFish.sh
 
-ln -nfs $PWD/scripts/git-squash /usr/local/bin/git-squash
+sudo ln -nfs $DIR/scripts/git-squash /usr/local/bin/git-squash
+
+cp -R $DIR/.config/fish $HOME/.config/fish
 cp gitconfig ~/.gitconfig

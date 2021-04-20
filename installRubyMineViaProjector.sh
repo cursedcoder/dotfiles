@@ -14,7 +14,7 @@ installProjectorPrereqs() {
 }
 
 installRubyMine() {
-	~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2021.1" --accept-licence=true
+	~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2021.1"
 	copyRubyMineConfig
 }
 
