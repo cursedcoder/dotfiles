@@ -6,5 +6,7 @@ if [[ -z ${SPIN} ]]; then
 fi
 
 ./installRubyMineViaProjector.sh
+./installFish.sh
 
+ln -nfs $PWD/scripts/git-squash /usr/local/bin/git-squash
 cp gitconfig ~/.gitconfig

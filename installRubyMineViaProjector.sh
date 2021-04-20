@@ -16,13 +16,10 @@ installProjectorPrereqs() {
 		python3-pip
 
 	pip3 install --quiet --user projector-installer
-
-	# Run this to install locally
-	# ~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2020.3.2"
 }
 
 installRubyMine() {
-	~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2020.3.2" --accept-licence=true
+	~/.local/bin/projector ide autoinstall --config-name RubyMine --ide-name "RubyMine 2021.1" --accept-licence=true
 	copyRubyMineConfig
 }
 
@@ -41,6 +38,5 @@ runRubyMine() {
 }
 
 installProjectorPrereqs
-
-# installRubyMine
-# runRubyMine
+installRubyMine
+runRubyMine
