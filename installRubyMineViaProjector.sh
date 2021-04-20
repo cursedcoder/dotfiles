@@ -29,7 +29,7 @@ copyRubyMineConfig() {
 }
 
 runRubyMine() {
-	~/.local/bin/projector run RubyMine
+	~/.local/bin/projector run RubyMine &
 }
 
 installProjectorPrereqs
